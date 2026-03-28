@@ -1,0 +1,87 @@
+body {
+    background-image: url("papeldefundoforte.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.titulo{
+   text-align: center;  
+   color: black;
+   font-family: serif;
+   font-size: 120%;
+   margin-bottom: 20px;
+} 
+.Rodape{
+   text-align: center;
+   color: black;
+   font-family: serif;
+   font-size: 170%;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+}
+
+.card{
+   flex: 0 0 calc(50% - 20px);
+   width:  250px;
+   max-width: 250px;
+   text-align: center;
+   background: rgb(163, 223, 228);
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card:hover{
+   transform: scale(1.05);
+
+}
+
+
+.card h3{
+   margin: 10px 0;
+   color: black;
+   font-family: serif;
+}
+
+.card p{
+   color: black;
+   font-family: serif;
+   font-size: 14px;
+}
+
+.card img{
+   width: 100%;
+   height: auto;
+   object-fit: cover;  
+   border-radius: 10px;
+
+}
+
+.botao {
+   display: inline-block;
+   background: brown;
+   color: white;
+   padding: 10px;
+   margin-top: 10px;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+   .container{
+      justify-content: space-between;
+   }
+   .titulo{
+      font-size: 90%;
+   }
+
+   .card{
+      flex: 0 0 48%;                       
+      max-width: 48%;
+      gap: 50px;
+   }
+}
