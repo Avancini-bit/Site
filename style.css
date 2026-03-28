@@ -10,7 +10,7 @@ body {
    color: black;
    background-color: rgb(163, 223, 228);
    font-family: 'Dancing Script', cursive;
-   font-size: 90%;
+   font-size: 100%;
    
 } 
 
@@ -18,7 +18,11 @@ body {
    text-align: center;
    color: black;
    font-family: serif;
-   font-size: 170%;
+   font-size: 150%;
+   margin: 10px 0 ;
+}
+h4,h5{
+   margin: 10px 0 ;
 }
 .container{
    display: flex;
