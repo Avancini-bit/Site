@@ -9,11 +9,20 @@ body {
    text-align: center;  
    color: black;
    background-color: rgb(163, 223, 228);
-   font-family: 'Dancing Script', cursive;
+   font-family:serif;
    font-size: 100%;
    padding: 1px 0;
-   
-} 
+}
+.subtitulo{
+   text-align: center;  
+   color: black;
+   background-color: rgb(163, 223, 228);
+   font-family:serif;
+   font-size: 100%;
+   margin-top: 0px;
+   margin-bottom: 5%;
+}
+
 
 .Rodape{
    text-align: center;
