@@ -9,17 +9,17 @@ body {
    text-align: center;  
    color: black;
    background-color: rgb(163, 223, 228);
-   font-family:serif;
-   font-size: 100%;
+   font-family:ink free;
+   font-size: 110%;
    padding: 1px 0;
 }
 .subtitulo{
    text-align: center;  
    color: black;
    background-color: rgb(163, 223, 228);
-   font-family:serif;
+   font-family:ink free;
    font-size: 100%;
-   margin-top: 0px;
+   margin-top: -20px;
    margin-bottom: 5%;
 }
 
